@@ -1,0 +1,145 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url('Nunito_Sans/NunitoSans-Italic-VariableFont_YTLC\,opsz\,wdth\,wght.ttf') format('woff2'),
+         url('Nunito_Sans/NunitoSans-VariableFont_YTLC\,opsz\,wdth\,wght.ttf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+    font-family: 'MyFont', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+header {
+    background-color: white !important; 
+}
+.bg-success {
+    --bs-bg-opacity: 1;
+    background-color: rgb(66 82 98 / 94%) !important;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: black !important; 
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: white !important; /* Цвет текста белый при наведении */
+    background: rgba(0, 128, 0, 0.1); /* Зеленый фон с прозрачностью */
+    border-radius: 5px;
+}
+
+.navbar-toggler {
+    border-color: rgb(255, 255, 255) !important; 
+}
+
+.navbar-toggler-icon {
+    filter: invert(1); 
+}
+.navbar-brand img {
+    height: 50px; 
+}
+
+.navbar {
+    padding: 0.5rem 1rem; 
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.navbar-nav .nav-link {
+    color: rgb(255, 255, 255) !important;
+    font-size: 18px;
+    padding: 10px 15px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: rgb(45 156 202) !important; /* Изменить цвет текста на белый при наведении */
+    background: rgba(255, 255, 255, 0.1); /* Задний фон при наведении */
+    border-radius: 5px;
+}
+
+.about-section {
+    background: url('img/assy.png') center/cover no-repeat;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.about-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+}
+
+.about-section .container {
+    position: relative;
+    z-index: 2;
+}
+.resort-block {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    max-width:90%;
+    margin: auto;
+}
+
+.resort-block img {
+    width: 50%;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.resort-text {
+    width: 50%;
+    padding-left: 20px;
+}
+
+.resort-text h2 {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.resort-text p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #333;
+}
+.text-success {
+    --bs-text-opacity: 1;
+    color: rgb(0 130 184) !important;
+    font-family: 'MyFont';
+}
+
+.card {
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+footer {
+    background: #fcfcfc;
+    color: rgb(0, 0, 0);
+    padding: 15px;
+}

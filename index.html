@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Санаторий «Ассы»</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="bg-success ">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="img/Logo.svg" alt="Логотип" height="50">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="navbar" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a class="nav-link" href="#about">О нас</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#services">Услуги</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#promotions">Акции</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#gallery">Галерея</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#pricing-consultation">Контакты</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    
+
+   <section id="about" class="about-section d-flex align-items-center text-center text-white">
+    <div class="container">
+        <h1 class="display-4 fw-bold">Санаторий «Ассы»</h1>
+        <p class="lead">Санаторий "Ассы" — это уникальное место, расположенное 
+            в живописной долине реки Инзер, среди гор Башкортостана.  
+            Чистый воздух, целебные источники и комфортные условия для отдыха и оздоровления ждут вас!</p>
+            </div>
+</section>
+<p></p>
+<br>
+<br>
+<div class="resort-block">
+    <img src="img/image.jpg" alt="Санаторий Ассы">
+    <div class="resort-text">
+        <h2>Санаторий «Ассы» — один из самых красивых курортов Башкирии</h2>
+        <p>
+            Он известен своими природными красотами и уникальными лечебными возможностями.
+            Основной медицинский профиль санатория "Ассы" соответствует стандартам санаториев Башкирии.
+        </p>
+        <p>
+            Здесь вы можете получить качественное лечение, проводимое квалифицированными врачами.
+            Они подберут для вас индивидуальные программы, включающие различные процедуры.
+        </p>
+        <p>
+            Санаторий "Ассы" специализируется на лечении заболеваний костно-мышечной системы, кожи и нервной системы.
+            Полезно будет и пациентам с проблемами органов пищеварения, нарушениями обмена веществ.
+        </p>
+    </div>
+</div>
+<section id="services" class="container py-5">
+    <h2 class="text-success text-center mb-4">Наши услуги</h2>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+            <div class="card shadow-sm border-0" data-bs-toggle="modal" data-bs-target="#modalGastro">
+                <img src="img/gastro.webp" class="card-img-top" alt="Лечение ЖКТ">
+                <div class="card-body">
+                    <h5 class="card-title">Лечение ЖКТ</h5>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card shadow-sm border-0" data-bs-toggle="modal" data-bs-target="#modalNervous">
+                <img src="img/nervous.webp" class="card-img-top" alt="Лечение нервной системы">
+                <div class="card-body">
+                    <h5 class="card-title">Лечение нервной системы</h5>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card shadow-sm border-0" data-bs-toggle="modal" data-bs-target="#modalBalneo">
+                <img src="img/balneo.webp" class="card-img-top" alt="Бальнеотерапия">
+                <div class="card-body">
+                    <h5 class="card-title">Бальнеотерапия</h5>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card shadow-sm border-0" data-bs-toggle="modal" data-bs-target="#modalDermo">
+                <img src="img/derma.webp" class="card-img-top" alt="Лечение кожных заболеваний">
+                <div class="card-body">
+                    <h5 class="card-title">Лечение кожных заболеваний</h5>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card shadow-sm border-0" data-bs-toggle="modal" data-bs-target="#modalOrtho">
+                <img src="img/ortho.webp" class="card-img-top" alt="Лечение опорно-двигательного аппарата">
+                <div class="card-body">
+                    <h5 class="card-title">Лечение (ОДА)</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Модальные окна -->
+<div class="modal fade" id="modalGastro" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Лечение органов пищеварения в санатории "Ассы"</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Диагностика ЖКТ – это в медицине ключевой момент, который позволяет определить наличие болезни и даже 
+                    рисков развития тех или иных проблем. Своевременное обращение к специалистам позволяет избавиться от будущих заболеваний не только лечебными, а и профилактическими мероприятиями. 
+                    Болезнь желудка или кишечника считается довольно серьезной ситуацией, поэтому запускать такое нельзя.</p> 
+
+                <p>Любое заболевание ЖКТ – серьезная проблема, но ее можно решить. Кардинальные ситуации решаются в стационаре, возможно, и хирургическими методами. 
+                    При этом современная медицина позволяет лечить заболевания ЖКТ, список которых приведен выше, вполне безболезненными и безинвазивными способами.</p> 
+                <p> Проблемы с кишечником, болезни желудка и симптомы – все это определит специалист. Лечение и реабилитацию можно пройти как в стационаре, так и в санатории. Санаторий – идеальный вариант, поскольку лечебные процедуры очень хорошо совмещаются с психологическим спокойствием. Приобрести путевку в санаторий "Ассы" 
+                    можно на специальную лечебную программу "Восстановление пищеварения". Есть противопоказания, необходима консультация специалиста. </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modalNervous" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Лечение и профилактика заболеваний нервной системы в санатории</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Даже самое легкое поражение центральной нервной 
+                    системы может вылиться в серьезную проблему, если такому недугу не уделять должного внимания.
+                    Любые симптомы и даже подозрения на наличие подобного заболевания должны стать сигналом к действию – обращению к специалистам.</p> 
+
+                <p>Нервные заболевания опасны тем, что в первое время они могут выглядеть 
+                    как обычное «плохое настроение». Люди часто попросту не обращают на симптомы
+                    никакого внимания, пренебрегая возможностью пройти диагностику и обследование.</p> 
+                <p> Заболевания нервной системы, список которых был приведен выше, лечат как амбулаторно,
+                     так и в стационаре. В качестве стационара при таких проблемах лучше всего подходит специализированный санаторий. 
+                     В зависимости от набора показаний и противопоказаний, пациенту будет назначено лечение как медикаментозное, 
+                     так и в виде различных процедур. </p>
+                       </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="modalBalneo" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Лечение заболеваний в санаториях и курортах</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Лечение заболеваний с помощью минеральных вод является
+                    эффективным и популярным методом. Однако перед началом лечения необходимо 
+                    обратиться к врачу и пройти осмотр, чтобы исключить противопоказания.</p>
+                <p>При выборе минеральной воды для лечения необходимо учитывать ее состав 
+                    и происхождение. В санаториях и курортах предлагаются специальные
+                    программы лечения, которые включают в себя различные процедуры и услуги опытных врачей.</p> 
+                <p>Лечение минеральными водами может помочь при многих заболеваниях, 
+                    но не следует забывать о необходимости консультации врача и соблюдении противопоказаний. 
+                    Кроме того, при выборе минеральной воды необходимо учитывать ее характеристики и происхождение, 
+                    чтобы добиться наилучших результатов лечения. </p>           
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="modalDermo" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Лечение кожных заболеваний</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>Многие кожные болезни носят длительный или хронический характер. 
+                    Требуют усилий больного и врачей для излечения. 
+                    Лечение, в большинстве случаев, комплексное.
+                     Сочетающее медикаментозные, физиотерапевтические и бальнеологические методики. 
+                     О том, что курортное лечение способно снимать симптомы самых 
+                     тяжелых дерматологических заболеваний было известно несколько тысячелетий назад.</p>
+                <p>Не утратило значения санаторно-курортное лечение кожных болезней и XXI веке. 
+                    Этим обусловлено большое количество санаториев, расположенных в самых различных 
+                    регионах и климатических поясах, предоставляющих услуги по оздоровлению дерматологических 
+                    больных с помощью климатических факторов, воздействия лечебных вод и грязей. 
+                    Санаторное лечение заболевания кожи способно вызвать стойкую ремиссию, 
+                    затормозить начавшийся процесс или существенно облегчить состояние больных, 
+                    страдающих неизлечимыми кожными болезнями. </p>           
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="modalOrtho" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Лечение опорно-двигательного аппарата</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <ul>
+                <li>Остеохондроз</li>
+                <li>Артрит</li>
+                <li>Остеопороз</li>
+                <li>Болезни мышц</li>
+                </ul>
+                <p>Лечение костно-мышечных заболеваний можно пройти в специализированных медицинских учреждениях, таких как санаторий Ассы. Санаторий предлагает широкий спектр медицинских услуг и программ для лечения и профилактики заболеваний костно-мышечной системы, а также профессиональный подход и индивидуальный подход к каждому пациенту.</p>
+            <p>Важно помнить, что своевременное обращение к врачу и правильное лечение помогут избежать серьезных последствий костно-мышечных заболеваний. Однако профилактика и своевременное выявление рисков также являются важными аспектами в борьбе с этими заболеваниями.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Подключение Bootstrap (если не подключен) -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+
+
+
+
+
+
+
+    <section id="promotions" class="container py-5">
+        <h2 class="text-success text-center mb-4">Акции</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card shadow-sm">
+                    <img src="img/promo1.webp" class="card-img-top" alt="Здоровый отдых">
+                    <div class="card-body text-center">
+                        <h3>Здоровый отдых за 790₽</h3>
+                        <p>С 13 февраля по 28 марта 2025 года лечение за 790₽ вместо 1500₽. Успейте воспользоваться выгодным предложением прямо сейчас!</p>
+                        <a href="#pricing-consultation" class="text-success">Узнать подробнее</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow-sm">
+                    <img src="img/promo2.webp" class="card-img-top" alt="День в подарок">
+                    <div class="card-body text-center">
+                        <h3>День в подарок!</h3>
+                        <p>При бронировании получите дополнительный день бесплатно. Успейте воспользоваться выгодным предложением прямо сейчас!
+
+                        </p>
+                        <a href="#pricing-consultation" class="text-success">Узнать подробнее</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow-sm">
+                    <img src="img/promo3.webp" class="card-img-top" alt="Рассрочка без переплат">
+                    <div class="card-body text-center">
+                        <h3>"Золотой возрост"</h3>
+                        <p>Предлагаем гостям старшего возраста позаботиться о здоровье и отдохнуть по специальным условиям.</p>
+                        <a href="#pricing-consultation" class="text-success">Узнать подробнее</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="gallery" class="container py-5 text-center">
+        <h2 class="text-success">Галерея</h2>
+        <div class="row">
+            <div class="col-md-4"><img src="img/image1.jpg" class="img-fluid rounded shadow-sm" alt="Фото 1"></div>
+            <div class="col-md-4"><img src="img/image2.jpg" class="img-fluid rounded shadow-sm" alt="Фото 2"></div>
+            <div class="col-md-4"><img src="img/image3.jpg" class="img-fluid rounded shadow-sm" alt="Фото 3"></div>
+            <p></p>
+            <div class="col-md-4"><img src="img/image4.jpg" class="img-fluid rounded shadow-sm" alt="Фото 1"></div>
+            <div class="col-md-4"><img src="img/image5.jpg" class="img-fluid rounded shadow-sm" alt="Фото 2"></div>
+            <div class="col-md-4"><img src="img/image6.jpg" class="img-fluid rounded shadow-sm" alt="Фото 3"></div>
+            <p></p>
+            <div class="col-md-4"><img src="img/image7.jpg" class="img-fluid rounded shadow-sm" alt="Фото 1"></div>
+            <div class="col-md-4"><img src="img/image9.jpg" class="img-fluid rounded shadow-sm" alt="Фото 3"></div>
+
+            <div class="col-md-4"><img src="img/image8.jpg" class="img-fluid rounded shadow-sm" alt="Фото 2"></div>
+            <p></p>
+        </div>
+    </section>
+
+    <section id="pricing-consultation" class="container py-5 text-center">
+        <h2 class="text-success">По ценам и консультациям свяжитесь с нами</h2>
+        <p class="lead">Если у вас есть вопросы по стоимости услуг или вам нужна консультация, свяжитесь с нами удобным способом.</p>
+        <section id="pricing-consultation" class="container py-5">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-md-start text-center">
+                    <h2 class="text-success">Оставьте заявку</h2>
+                    <p>Заполните форму, и мы свяжемся с вами в ближайшее время.</p>
+                </div>
+                <div class="col-md-6">
+                    <div class="application-form p-4 shadow-lg rounded-4 bg-light">
+                        <form action="#index.html" class="text-start mx-auto" style="max-width: 500px;">
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Ваше имя</label>
+                                <input type="text" class="form-control rounded-pill" id="name" name="name" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="phone" class="form-label">Телефон</label>
+                                <input type="tel" class="form-control rounded-pill" id="phone" name="phone" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email (необязательно)</label>
+                                <input type="email" class="form-control rounded-pill" id="email" name="email">
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Ваш вопрос</label>
+                                <textarea class="form-control rounded-4" id="message" name="message" rows="4" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-success w-100 rounded-pill">Отправить заявку</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="contact-info mt-4">
+        <div class="contacts">
+            <h2>Контактная информация</h2>
+            <p><strong>Адрес:</strong> 453562, Республика Башкортостан, Белорецкий район, с. Ассы</p>
+            <p><strong>Телефон:</strong> <a href="tel:+79061003050">+7 (906) 100‑30‑50</a></p>
+            <p><strong>Email:</strong> <a href="mailto:assy@inbox.ru">assy@inbox.ru</a></p>
+            <div class="map">
+                <iframe 
+                src="https://yandex.ru/map-widget/v1/?ll=57.562858%2C54.372419&z=15&pt=57.562858,54.372419,pm2rdl" width="100%" height="400" frameborder="0">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer class="bg-success text-white text-center py-3">
+        <p>&copy; 2025 Санаторий «Ассы». Все права защищены.</p>
+    </footer>
+</body>
+</html>
