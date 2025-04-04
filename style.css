@@ -25,8 +25,8 @@ header {
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
-    color: white !important; /* Цвет текста белый при наведении */
-    background: rgba(0, 128, 0, 0.1); /* Зеленый фон с прозрачностью */
+    color: white !important;
+    background: rgba(0, 128, 0, 0.1); 
     border-radius: 5px;
 }
 
@@ -56,8 +56,8 @@ header {
 }
 
 .navbar-nav .nav-link:hover {
-    color: rgb(45 156 202) !important; /* Изменить цвет текста на белый при наведении */
-    background: rgba(255, 255, 255, 0.1); /* Задний фон при наведении */
+    color: rgb(45 156 202) !important; 
+    background: rgba(255, 255, 255, 0.1); 
     border-radius: 5px;
 }
 
